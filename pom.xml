@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.customy</groupId>
   <artifactId>customy-data</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>Customy Data SDK for Java</name>
   <description>Governed customer data collection SDK for Customy Data</description>
   <url>https://github.com/customyco/customy-data-java</url>

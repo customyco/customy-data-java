@@ -21,7 +21,7 @@ import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
 public final class CustomyDataClient {
-  public static final String VERSION = "0.1.0";
+  public static final String VERSION = "0.1.1";
   public static final String CONFORMANCE_CONTRACT = "customy.customer-data-sdk.conformance.v1";
   private static final Set<String> EVENT_TYPES = Set.of("track", "identify", "group", "page", "screen", "alias");
   private static final Set<String> FORBIDDEN_TENANT_FIELDS = Set.of("tenantId", "organizationId", "projectId", "environmentId");
