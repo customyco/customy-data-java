@@ -44,7 +44,7 @@ final class CustomyDataClientTest {
   }
 
   @Test void portableSixCallConformance() throws Exception {
-    var path = Path.of("../sdk-data/conformance/customer-data-v1.json");
+    var path = Path.of("conformance/customer-data-v1.json");
     var vectors = MAPPER.readValue(Files.readAllBytes(path), new TypeReference<Map<String, Object>>() {});
     assertEquals(CustomyDataClient.CONFORMANCE_CONTRACT, vectors.get("contract"));
     var recorder = new Recorder(202, 202, 202, 202, 202, 202);
